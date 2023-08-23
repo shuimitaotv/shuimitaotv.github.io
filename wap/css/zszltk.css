@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+.redClass { background:#ff0000; color:#fff}
+.blueClass { background:#0000ff; color:#fff}
+.greenClass { background:#009900; color:#fff}
+
+.bd { font-size: 14px;}
+
+
+.cgi-zs {border: 1px solid #c38105;}
+.cgi-zs .hd{ height:35px; line-height:35px; font-size:16px; overflow:hidden; background:#efefef;}
+.cgi-zs .hd ul {}
+.cgi-zs .hd ul li{ float:left; width:16.66%; text-align:center; vertical-align:top;  }
+.cgi-zs .hd ul li.on a{ color:#f00; display:block; height:33px; line-height:33px; border-bottom:2px solid #f00;}
+.cgi-zs .bd td { text-align:center; padding:2px 0; border:1px solid #ddd}
+.tableti td { background:#f8f8f8; border-bottom:2px solid #666;}
+.cgi-zs .bd td font { display:block}
+.cgi-zs .bd td i { color:#999; font-size:10px}
+
+.cgi-zl {}
+.cgi-zl .hd { height:77px; padding-top: 10px; border-bottom:1px solid #ddd; overflow:hidden;}
+.cgi-zl .hd ul li{ float:left; width:20%; text-align:center}
+.cgi-zl .hd ul li span { display:block; width:50%; height:40px; margin:0 auto 10px auto;}
+.cgi-zl .hd ul li span img { height: 100%; width: auto;}
+.cgi-zl .hd ul li.on a{ display:block; padding-bottom:5px; border-bottom:3px solid #f00;}
+.sxsuxing1 td { border-bottom:1px solid #ddd; padding:10px 0;}
+.hongbospan span { margin:3px 5px; float:left; width:20px; height:20px; color:#fff; text-align:center; line-height:20px; font-size:12px;-webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%; background:#f00}
+.lanbospan span { margin:3px 5px; float:left; width:20px; height:20px; color:#fff; text-align:center; line-height:20px; font-size:12px;-webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%; background:#3366ff}
+.lvbospan span { margin:3px 5px; float:left; width:20px; height:20px; color:#fff; text-align:center; line-height:20px; font-size:12px;-webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%; background:#009933}
+.sxsuxing2 td { border-bottom:1px solid #ddd; padding:5px 0; overflow:hidden}
+.sxsuxing1 span,.sxsuxing2 span { float:left; height:20px; line-height:20px; width:20px; text-align:center; margin:0 3px; color:#fff; font-size:12px; -webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%;}
+.sxsuxing2 i { float:left; width:50px; text-align:center; height:20px; line-height:20px;}
+.sxsuxing3 td { border-bottom:1px solid #ddd; padding: 5px 10px; overflow: hidden;}
+.sxsuxing3 i { color: #f00;}
+
+.bg_red { background:#f00;}
+.bg_blue { background:#3366ff}
+.bg_green { background:#009933}
+
+.cgi-tongji {}
+.cgi-tongji-tit { height: 40px; line-height: 40px; padding: 0 10px; font-size: 16px; border-top: solid 1px #ddd; background: #f8f8f8;}
+.cgi-tongji-tit span { height: 16px; line-height: 16px; border-left: solid 4px #f00; padding-left: 10px; display: inline-block;}
+.cgi-tongji .cgi-tongji-tit:nth-child(1) { border-top: 0;}
+.cgi-tongji table {}
+.cgi-tongji td { text-align:center; padding:2px 0; border:1px solid #ddd;}
+.cgi-tongji td span { height:20px; line-height:20px; width:20px; text-align:center; margin:3px; color:#fff; font-size:12px; -webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%; display: inline-block;}
+.cgi-tongji td span.sx {background: #f00;}
+.cgi-tongji-bg { width: 42%; color: #888; background: #f8f8f8; background-image:-webkit-linear-gradient(to top, #f8f8f8, #ffffff); background-image:linear-gradient(to top, #f8f8f8, #ffffff);}
+.cgi-tongji-qi { font-size: 12px;}
+.cgi-tongji-grey { height: 5px; overflow: hidden; background: #eee;}
+
+
+
+
+
+.cgi-pic {}
+.cgi-pic ul { padding-top: 10px;}
+.cgi-pic ul li { float:left; width:50%; margin-bottom:10px; height:200px;}
+.cgi-pic ul li a { display:block; margin: 0 5px 10px 5px; position:relative; line-height:30px; text-align:center;}
+.cgi-pic ul li a img { width:100%; height:200px;}
+.cgi-pic ul li a span { position:absolute; left:0; bottom:0; width:100%; height:30px; line-height:30px; text-align:center; color:#fff; background-color: rgba(0, 0, 0, 0.7);
+background: rgba(0, 0, 0, 0.7);}
+
+@media screen and (max-width:500px){  
+.cgi-pic ul li { height:140px;}
+.cgi-pic ul li a img { height:140px;}
+ } 
+
+@media screen and (max-width:450px){  
+.cgi-pic ul li { height:130px;}
+.cgi-pic ul li a img { height:130px;}
+ } 
+
+@media screen and (max-width:400px){  
+.cgi-pic ul li { height:120px;}
+.cgi-pic ul li a img { height:120px;}
+ } 

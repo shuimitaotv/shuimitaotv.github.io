@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.kj-tit { height: 30px; line-height: 30px; padding: 0 10px; color: #777; font-size: 14px; background: #eee;}
+.kj-box { height: 82px; padding-top: 8px; text-align: center; font-size: 16px;}
+.kj-box ul {}
+.kj-box ul li { float: left; width: 13%;}
+.kj-box ul li.kj-jia { width: 7%;}
+.kj-box ul li dl {}
+.kj-box ul li dl dt { height: 40px; line-height: 32px; padding-right: 3px; font-size: 20px; color: #333; font-weight: bold;}
+.kj-box ul li dl dt.ball-red { background: url(../images/ball-red.png) top center no-repeat; background-size: contain;}
+.kj-box ul li dl dt.ball-blue { background: url(../images/ball-blue.png) top center no-repeat; background-size: contain;}
+.kj-box ul li dl dt.ball-green { background: url(../images/ball-green.png) top center no-repeat; background-size: contain;}
+.kj-box ul li.kj-jia dl dt { background: url(../images/kj-jia.png) center center no-repeat; background-size: contain;}
+.kj-box ul li dl dd { height: 30px; line-height: 30px; margin-top: 8px; border-top: solid 1px #eee;}
+.wx-jin { color: #ffcc00;}
+.wx-mu { color: #33cc33;}
+.wx-shui { color: #3399ff;}
+.wx-huo { color: #ff0000;}
+.wx-tu { color: #cc9900;}
+.grey-txt { color: #ccc;}
+
+#xz-tan-box { position: fixed;left: -100%;right:100%;top:0;bottom: 0;text-align: center;font-size: 0; z-index:1000;}
+#xz-tan-box:after {content:"";display: inline-block;vertical-align: middle;height: 100%;width: 0;}
+.xz-tan-box {display: inline-block; *display: inline; *zoom:1; vertical-align: middle;position: relative;right: -100%; width: 90%; max-width: 700px; color: #000; font-size: 16px; border-radius: 10px; background: #fff;}
+.xz-tan-content { padding: 20px 15px;}
+.xz-tan-content ul {}
+.xz-tan-content ul li { float: left; width: 48%; padding-right: 4%;}
+.xz-tan-content ul li:last-child { padding-right: 0;}
+.xz-tan-last { height: 40px; border: solid 1px #ddd; border-radius: 10px 10px 0 0; background: #eee; background-image:linear-gradient(to top, #fff, #aaa, #fff);}
+.xz-tan-last span { width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #333; position: relative; top: -8px;}
+.xz-tan-next { height: 40px; border: solid 1px #ddd; border-radius: 0 0 10px 10px; background: #eee; background-image:linear-gradient(to top, #fff, #aaa, #fff);}
+.xz-tan-next span { width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #333; position: relative; top: 25px;}
+.xz-tan-input { padding: 10px; border-left: solid 1px #ddd; border-right: solid 1px #ddd; background: #eee;}
+.xz-tan-input input { width: 100%; height: 40px; line-height: 40px; text-align: center; font-size: 24px; border: 0; background: none;}
+.xz-tan-btn {}
+.xz-tan-btn a { height: 50px; line-height: 50px; margin-top: 20px; font-size: 18px; color: #fff; border-radius: 10px; background: #0063ca; display: block;}
+.xz-black-bg { width:100%; max-width: 800px; height:100%; position:fixed; top:0; z-index:999; background:#000; opacity:0.6;filter:alpha(opacity=60);}
+
+
+.selectYearDialog{display: none;}
